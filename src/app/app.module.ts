@@ -23,6 +23,7 @@ import { SharedModule } from './shared/shared.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 // import { OffersComponent } from './home/src/app/home/offers/offers.component';
 import { OffersComponent } from './home/offers/offers.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -39,7 +40,8 @@ import { OffersComponent } from './home/offers/offers.component';
     ReviewsComponent,
     OrderSummaryComponent,
     NotFoundComponent,
-    OffersComponent
+    OffersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
