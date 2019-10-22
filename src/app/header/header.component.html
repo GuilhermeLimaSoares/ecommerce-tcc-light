@@ -50,7 +50,10 @@
       </ul>
       <span class="navbar-text">
         <!-- Texto navbar com um elemento inline -->
-        <img src="./../../assets/img/shopping-cart.svg" alt="" style="height: 30px;">
+        <img src="./../../assets/img/shopping-cart.svg" alt="" style="height: 30px;" (click)="openCart()">
+        <div  class="cart" *ngIf="controller">
+            <mt-shopping-cart></mt-shopping-cart>
+        </div>
       </span>
     </div>
   </nav>

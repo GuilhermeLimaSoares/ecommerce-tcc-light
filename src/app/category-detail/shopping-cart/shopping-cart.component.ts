@@ -3,7 +3,7 @@ import { trigger, state, style, transition, animate, keyframes } from '@angular/
 
 import { ShoppingCartService } from './shopping-cart.service';
 
-@Component({
+@Component({ 
   selector: 'mt-shopping-cart',
   templateUrl: './shopping-cart.component.html',
   styleUrls: ['./shopping-cart.component.css'],

@@ -1,22 +1,32 @@
-.nav-main {
-    background-color: #87CEEB !important;
-
-    // .select2 {
-    //     border: 1px solid yellow !important;
-    //     position: relative;
-    //     top: 16px;
-    //     right: 146px;
-    //     width: 80px;
-    //     opacity: 0.2;
-    // }
-
-    ul {
-        li {
-            margin: 8px;
-            a{
-            font-size: 20px !important;
+.main-header{
+    .nav-main {
+        background-color: #87CEEB !important;
     
+        // .select2 {
+        //     border: 1px solid yellow !important;
+        //     position: relative;
+        //     top: 16px;
+        //     right: 146px;
+        //     width: 80px;
+        //     opacity: 0.2;
+        // }
+    
+        ul {
+            li {
+                margin: 8px;
+                a{
+                font-size: 20px !important;
+        
+                }
             }
+        }
+
+        .cart{
+            position: absolute;
+            right: 38px;
+            top: 62px;
         }
     }
 }
+
+

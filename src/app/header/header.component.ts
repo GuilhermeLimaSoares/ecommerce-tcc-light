@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public controller = false;
   constructor() { }
 
   ngOnInit() {
 
     
+  }
+
+  public openCart(){
+      this.controller = !this.controller;
   }
 
   
