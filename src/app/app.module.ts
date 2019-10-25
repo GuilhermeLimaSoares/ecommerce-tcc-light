@@ -24,6 +24,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 // import { OffersComponent } from './home/src/app/home/offers/offers.component';
 import { OffersComponent } from './home/offers/offers.component';
 import { FooterComponent } from './footer/footer.component';
+import { AuthenticationModal} from './authentication-modal/authentication-modal.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { FooterComponent } from './footer/footer.component';
     OrderSummaryComponent,
     NotFoundComponent,
     OffersComponent,
-    FooterComponent
+    FooterComponent,
+    AuthenticationModal
   ],
   imports: [
     BrowserModule,

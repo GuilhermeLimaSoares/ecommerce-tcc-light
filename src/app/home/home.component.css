@@ -1,3 +1,10 @@
 .slide{
     /* border: 1px solid green !important; */
 }
+
+.modal{
+    /* position: relative;
+    left: 812px;
+    bottom: 531px;
+    z-index: 9999; */
+}
